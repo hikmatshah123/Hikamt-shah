@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: rgb(200, 235, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #b8c9ca;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1):
+}
+.container .left_side
+{
+    position: relative;
+    background: #31434b;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.container.right_side
+{
+    position: relative;
+    background: #65828f;
+    padding: 50px;
+}
+.profileText .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: #9abbca;
+    overflow: hidden;
+}
+.profileText .imgBox img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 125%;
+    object-fit: cover;
+}
+.profileText h2{
+    letter-spacing: 4px;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1.5em;
+
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 350;
+    letter-spacing: 7px;
+}
+.contact_Information{
+    padding-top: 40px;
+ 
+}
+.title{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.container .container.right_side{
+    position: relative;
+    background: #804545;
+    padding: 40px;
+}
+.contact_Information ul{
+    position: relative;
+}
+.contact_Information ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact_Information ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contact_Information ul li span{
+    color: #fff;
+    font-weight: 350;
+}
+.contact_Information .Education li{
+    margin: 15px;
+}
+.contact_Information.Education h5{
+    color: #03a9f4;
+    font-weight:500;
+}
+.contact_Information.Education h4{
+    color: #ffffff;
+    font-weight: 500;
+}
+.contact_Information .Language.percent{
+    width: 100%;
+    height: 6px;
+    background: #f00;
+    display: block;
+}
+.contact_Information .About{
+    color: #000000;
+    margin-right: 30px;
+}
+.right_side .title2{
+    color: #000000;
+    margin-top: 10px;
+}
+.About:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+    margin-left: 30px;
+}
+.title2{
+    color: #1199d8;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.title3{
+    color: #1199d8;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.title4{
+    margin-top: 30px;
+    color: #1199d8;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.title4.h4{
+    margin: 10px;
+    color: #03a9f4;
+
+}
